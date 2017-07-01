@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
         myTask.execute();*/
 
         VolleyCaller vc = new VolleyCaller();
-        vc.makePostRequest(this);
+        vc.makePostRequest(getApplicationContext());
 
     }
 
